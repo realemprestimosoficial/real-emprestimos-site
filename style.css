@@ -124,3 +124,47 @@ header img {
     color:#555;
     line-height:1.6;
 }
+/* ===== POR QUE ESCOLHER A REAL ===== */
+
+.vantagens{
+    background:#ffffff;
+    padding:70px 20px;
+}
+
+.vantagens h2{
+    text-align:center;
+    color:#0057b8;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.vantagens-grid{
+    max-width:1200px;
+    margin:auto;
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.vantagem{
+    background:#f7f9fc;
+    border-radius:15px;
+    padding:30px;
+    border-left:6px solid #2E7D32;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+}
+
+.vantagem:hover{
+    transform:translateY(-6px);
+}
+
+.vantagem h3{
+    color:#0057b8;
+    margin-bottom:15px;
+}
+
+.vantagem p{
+    color:#555;
+    line-height:1.6;
+}
