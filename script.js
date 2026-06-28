@@ -18,3 +18,6 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     });
 });
+// ===== BOTÃO WHATSAPP =====
+
+console.log("WhatsApp carregado com sucesso.");
