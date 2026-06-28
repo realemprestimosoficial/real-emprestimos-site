@@ -341,3 +341,78 @@ line-height:1.8;
 margin-bottom:15px;
 
 }
+/* ===== DEPOIMENTOS ===== */
+
+.depoimentos{
+
+background:#ffffff;
+
+padding:70px 20px;
+
+}
+
+.depoimentos h2{
+
+text-align:center;
+
+color:#0057b8;
+
+font-size:36px;
+
+margin-bottom:45px;
+
+}
+
+.depoimentos-grid{
+
+display:grid;
+
+grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+
+gap:30px;
+
+max-width:1200px;
+
+margin:auto;
+
+}
+
+.depoimento{
+
+background:#f8f9fb;
+
+padding:30px;
+
+border-radius:15px;
+
+box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+text-align:center;
+
+transition:.3s;
+
+}
+
+.depoimento:hover{
+
+transform:translateY(-8px);
+
+}
+
+.depoimento h3{
+
+font-size:28px;
+
+margin-bottom:20px;
+
+}
+
+.depoimento p{
+
+line-height:1.7;
+
+margin-bottom:20px;
+
+color:#555;
+
+}
