@@ -302,3 +302,42 @@ transform:scale(1.12);
 background:#20b955;
 
 }
+/* ===== RODAPÉ ===== */
+
+.rodape{
+
+background:#003d80;
+
+color:#fff;
+
+padding:60px 20px;
+
+margin-top:60px;
+
+}
+
+.rodape-conteudo{
+
+max-width:1200px;
+
+margin:auto;
+
+text-align:center;
+
+}
+
+.rodape h2{
+
+font-size:34px;
+
+margin-bottom:20px;
+
+}
+
+.rodape p{
+
+line-height:1.8;
+
+margin-bottom:15px;
+
+}
