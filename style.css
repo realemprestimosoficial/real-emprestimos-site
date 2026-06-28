@@ -591,3 +591,6 @@ font-size:18px;
 ::-webkit-scrollbar-thumb:hover{
     background:#0057b8;
 }
+html{
+    scroll-behavior:smooth;
+}
