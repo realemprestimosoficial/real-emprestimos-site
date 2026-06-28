@@ -168,3 +168,92 @@ header img {
     color:#555;
     line-height:1.6;
 }
+/* ===== LOCALIZAÇÃO ===== */
+
+.localizacao{
+
+    background:#f5f7fb;
+
+    padding:70px 20px;
+
+}
+
+.localizacao h2{
+
+    text-align:center;
+
+    color:#0057b8;
+
+    margin-bottom:50px;
+
+    font-size:36px;
+
+}
+
+.localizacao-container{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:40px;
+
+    align-items:center;
+
+}
+
+.info-local{
+
+    background:#fff;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+.info-local h3{
+
+    color:#0057b8;
+
+    margin-bottom:20px;
+
+}
+
+.info-local p{
+
+    margin-bottom:18px;
+
+    line-height:1.7;
+
+}
+
+.mapa iframe{
+
+    width:100%;
+
+    height:420px;
+
+    border:none;
+
+    border-radius:15px;
+
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+
+}
+
+@media(max-width:900px){
+
+.localizacao-container{
+
+grid-template-columns:1fr;
+
+}
+
+}
