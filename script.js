@@ -21,3 +21,8 @@ document.addEventListener("DOMContentLoaded", function () {
 // ===== BOTÃO WHATSAPP =====
 
 console.log("WhatsApp carregado com sucesso.");
+// ===== FINALIZAÇÃO =====
+
+window.addEventListener("load", function () {
+    console.log("Site da Real Empréstimos carregado com sucesso.");
+});
