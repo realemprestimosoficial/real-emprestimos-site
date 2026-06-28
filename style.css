@@ -81,3 +81,46 @@ header img {
     object-fit:contain;
 }
 }
+/* ---------- Nossos Serviços ---------- */
+
+.servicos{
+    padding:60px 20px;
+    background:#f5f7fb;
+}
+
+.servicos h2{
+    text-align:center;
+    color:#0057b8;
+    font-size:36px;
+    margin-bottom:40px;
+}
+
+.cards{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.card{
+    background:#ffffff;
+    border-radius:15px;
+    padding:30px;
+    box-shadow:0 10px 25px rgba(0,0,0,.10);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card h3{
+    color:#0057b8;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#555;
+    line-height:1.6;
+}
